@@ -3,9 +3,9 @@ entries:
   data-diode-connector-egress:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-11-30T02:26:40.84029072Z"
+    created: "2025-11-30T02:28:13.141157522Z"
     description: A Helm chart for Kubernetes to deploy the Data Diode Connector Egress
-    digest: 97bbfc10b7a05ff179112e1099435b15a64763c1cec678c8b637d3e522735a96
+    digest: 90518de1adb057e2947c69df3a93a1274e9068adac685f890d4404425124dd31
     name: data-diode-connector-egress
     type: application
     urls:
@@ -14,12 +14,12 @@ entries:
   data-diode-connector-ingress:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-11-30T02:26:40.840984028Z"
+    created: "2025-11-30T02:28:13.141731786Z"
     description: A Helm chart for Kubernetes to deploy the Data Diode Connector Ingress
-    digest: 34413a033a4b07c6cf1f7819517ea3bda96346a3de2da77b68bb5723fdd51126
+    digest: 6c9bde83901bd5e27f3d24c075329b70033748124dbb5507d6a4812989ab59e2
     name: data-diode-connector-ingress
     type: application
     urls:
     - data-diode-connector-ingress-1.0.0.tgz
     version: 1.0.0
-generated: "2025-11-30T02:26:40.839550405Z"
+generated: "2025-11-30T02:28:13.140431864Z"
