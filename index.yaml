@@ -1,25 +1,83 @@
 apiVersion: v1
 entries:
   data-diode-connector-egress:
-  - apiVersion: v2
+  - annotations:
+      artifacthub.io/category: security
+      artifacthub.io/links: |
+        - name: Official Site
+          url: https://data-diode-connector.ffutop.com?utm_source=artifacthub&utm_medium=link&utm_campaign=egress
+        - name: Documentation
+          url: https://data-diode-connector.ffutop.com/en/index.html?utm_source=artifacthub&utm_medium=link&utm_campaign=egress
+        - name: GitHub Repository
+          url: https://github.com/ffutop/DataDiodeConnector
+        - name: Issue Tracker
+          url: https://github.com/ffutop/DataDiodeConnector/issues
+    apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-11-30T03:27:27.497416912Z"
-    description: A Helm chart for Kubernetes to deploy the Data Diode Connector Egress
-    digest: d267db1652e7f833c657924653fd0fe88c9ed9fa9ac43cf9839bfb86e0e1e754
+    created: "2025-11-30T05:27:19.252251646Z"
+    description: A Helm chart for Kubernetes to deploy the Data Diode Connector Egress.
+      Securely receives and processes unidirectional data streams.
+    digest: b858c591aa979447abed8ab8d6cf5e54a64d4eb05009c6bdded395af23f57a00
+    home: https://data-diode-connector.ffutop.com
+    keywords:
+    - data-diode
+    - security
+    - cybersecurity
+    - air-gap
+    - network-isolation
+    - rust
+    - udp
+    - kafka
+    - ot-security
+    maintainers:
+    - email: lijinling.me@gmail.com
+      name: ffutop
     name: data-diode-connector-egress
+    sources:
+    - https://github.com/ffutop/DataDiodeConnector
+    - https://data-diode-connector.ffutop.com/docs
     type: application
     urls:
     - data-diode-connector-egress-1.0.0.tgz
     version: 1.0.0
   data-diode-connector-ingress:
-  - apiVersion: v2
+  - annotations:
+      artifacthub.io/category: security
+      artifacthub.io/links: |-
+        - name: Official Site
+          url: https://data-diode-connector.ffutop.com?utm_source=artifacthub&utm_medium=link&utm_campaign=ingress
+        - name: Documentation
+          url: https://data-diode-connector.ffutop.com/en/index.html?utm_source=artifacthub&utm_medium=link&utm_campaign=ingress
+        - name: GitHub Repository
+          url: https://github.com/ffutop/DataDiodeConnector
+        - name: Issue Tracker
+          url: https://github.com/ffutop/DataDiodeConnector/issues
+    apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-11-30T03:27:27.498013448Z"
-    description: A Helm chart for Kubernetes to deploy the Data Diode Connector Ingress
-    digest: 816f14c214c3d869121ec32db99f02ccc536f20965a0c4a1272a5d52cebf3e0f
+    created: "2025-11-30T05:27:19.252948952Z"
+    description: A Helm chart for Kubernetes to deploy the Data Diode Connector Ingress.
+      Designed for secure, unidirectional data transfer in high-security environments.
+    digest: d580bff06c973775a3d1bcd3cf159a41cd702b2f0d3b03efe78a05d004858d54
+    home: https://data-diode-connector.ffutop.com
+    keywords:
+    - data-diode
+    - security
+    - cybersecurity
+    - air-gap
+    - network-isolation
+    - rust
+    - udp
+    - kafka
+    - ot-security
+    maintainers:
+    - email: lijinling.me@gmail.com
+      name: ffutop
     name: data-diode-connector-ingress
+    sources:
+    - https://github.com/ffutop/DataDiodeConnector
+    - https://data-diode-connector.ffutop.com/docs
     type: application
     urls:
     - data-diode-connector-ingress-1.0.0.tgz
     version: 1.0.0
-generated: "2025-11-30T03:27:27.496695071Z"
+generated: "2025-11-30T05:27:19.251418377Z"
