@@ -14,10 +14,10 @@ entries:
           url: https://github.com/ffutop/DataDiodeConnector/issues
     apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-12-01T03:10:35.033975376Z"
+    created: "2025-12-01T03:28:01.036094236Z"
     description: A Helm chart for Kubernetes to deploy the Data Diode Connector Egress.
       Securely receives and processes unidirectional data streams.
-    digest: d226db16777535546eda2c3d38b6ef6f37c7fcee633ca726125cb78391de2a50
+    digest: 3ca8b815589a9dd2b29e4ed099aa93dca41572ea95beea3daa13654f1030c572
     home: https://data-diode-connector.ffutop.com
     keywords:
     - data-diode
@@ -54,10 +54,10 @@ entries:
           url: https://github.com/ffutop/DataDiodeConnector/issues
     apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-12-01T03:10:35.034638405Z"
+    created: "2025-12-01T03:28:01.036770775Z"
     description: A Helm chart for Kubernetes to deploy the Data Diode Connector Ingress.
       Designed for secure, unidirectional data transfer in high-security environments.
-    digest: d107e227d514766b742c396260193a948c8897a19234178d7e357ebe29c1359d
+    digest: 4708638f0cc9b3816be438403b1667716f5c751c449ebca127ee7a882ab0fa3e
     home: https://data-diode-connector.ffutop.com
     keywords:
     - data-diode
@@ -80,4 +80,4 @@ entries:
     urls:
     - data-diode-connector-ingress-1.0.0.tgz
     version: 1.0.0
-generated: "2025-12-01T03:10:35.033173827Z"
+generated: "2025-12-01T03:28:01.0345058Z"
